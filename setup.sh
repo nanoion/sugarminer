@@ -1,7 +1,7 @@
 #!/bin/bash
 pkg install -y automake clang vim
-git clone https://github.com/decryp2kanon/sugarmaker.git ../
-cd ../sugarmaker
+git clone https://github.com/decryp2kanon/sugarmaker.git
+cd sugarmaker
 ./autogen.sh
 ./configure CFLAGS="-Wall -O2 -fomit-frame-pointer" CXXFLAGS="$CFLAGS -std=gnu++11"
 make
