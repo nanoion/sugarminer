@@ -1,5 +1,5 @@
 #!/bin/bash
-pkg install automake clang git vim
+pkg install -y automake clang vim
 git clone https://github.com/decryp2kanon/sugarmaker.git ../
 cd ../sugarmaker
 ./autogen.sh
